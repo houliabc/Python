@@ -1,0 +1,3 @@
+# 一个单元格里面所有变量都会输出
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"

@@ -1,0 +1,13 @@
+季节	时间已过 8 点	风力情况	要不要赖床
+春天	no	    微风	yes
+冬天	no	 无风	yes
+秋天	yes	 微风	yes
+冬天	no	 无风	yes
+夏天	no	微风	yes
+冬天	yes	微风	yes
+冬天	no	大风	yes
+冬天	no	无风	yes
+春天	yes	无风	no
+夏天	yes	微风	no
+夏天	no	大风	no
+秋天	yes	大风	no

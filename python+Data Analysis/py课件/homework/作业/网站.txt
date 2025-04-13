@@ -1,0 +1,24 @@
+https://www.kaggle.com/code/atharvbharaskar/reading-habits-of-students-statistical-analysis
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10817177/
+https://www.kaggle.com/datasets/atharvbharaskar/reading-habits-of-students
+https://www.kaggle.com/code/atharvbharaskar/reading-habits-of-students-statistical-analysis
+
+
+请完成一份完整的数据分析报告，要求如下：
+（1）题目自拟，主题尽量新颖有现实意义；
+（2）数据自行准备，可以是网上搜寻的数据、自己收集的数据以及爬虫获得的数据；
+（3）数据分析报告可以包括但不限于以下步骤：
+    - 分析目的
+    - 数据获取
+    - 数据概览
+    - 数据清洗
+    - 数据转换
+    - 数据分析（统计计算，探索性分析，单个特征分析，特征间关系分析）
+    - 机器学习（可选）
+    - 结论
+（4）熟练运用numpy、matplotlib、pandas，参考ECHARTS、plotly、seaborn等第三方库；
+（5）图表丰富合理，且在代码之外有一定的文字描述；
+（6）熟练运用Markdown形式的文档格式；
+（7）拒绝雷同；
+（8）提交ipynb格式的Jupyter Notebook，以附件形式。提交的文件夹包含数据、代码。代码文件保留执行结果。
+说明：文件夹名字为“学号姓名”，如有雷同或抄袭，直接重修。

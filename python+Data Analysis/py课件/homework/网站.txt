@@ -1,0 +1,50 @@
+https://www.heywhale.com/mw/project/6113a9a0fe727700176c4771/content
+https://www.heywhale.com/mw/project/66617b658ff60d3a5c7ba613
+https://www.heywhale.com/mw/notebook/66719ceeed6599e0fcdb6891
+统计计算分析：平均评论数前十的作者书籍价格及折扣比例、折扣价最高的前十本图书、热门作家推荐、书籍上榜情况分布、
+	前十位最热门出版社推荐、各个出版社出版的书籍数量、书籍出版年份与评论数的关系
+单个特征分析：书籍价格及折扣比例分布情况、书籍推荐值的分布情况、书籍评论数的分布情况、书籍出版年份的分布情况、
+特征间关系分析：各年排名前十名的书籍的评论数、书籍评论数与推荐值的关系、原价及书籍出版年份的关系、书籍折扣比例与评论数的关系
+探索性数据分析：查看最高产的作者、查看最高产作者的平均评论数及平均推荐值、热门书籍推荐
+
+
+https://www.kaggle.com/code/atharvbharaskar/reading-habits-of-students-statistical-analysis
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10817177/
+https://www.kaggle.com/datasets/atharvbharaskar/reading-habits-of-students
+https://www.kaggle.com/code/atharvbharaskar/reading-habits-of-students-statistical-analysis
+
+参考制作：
+https://modelwhale-datasets-1254542291.cos.ap-nanjing.myqcloud.com/dataset/60fad2c96657140017c574f3/1717730148824_1/%E5%BD%93%E5%BD%93%E7%BD%91%E7%95%85%E9%94%80%E5%9B%BE%E4%B9%A6%E6%A6%9C%E5%8D%95%E6%95%B0%E6%8D%AE.csv?q-sign-algorithm=sha1&q-ak=AKID796tYNDKOYtIlClJrJIB1qX9qXDqR4au&q-sign-time=1719211015;1719218215&q-key-time=1719211015;1719218215&q-header-list=host&q-url-param-list=&q-signature=38f9d637b1498e1e48394fdae9cc3e50fcaa276a&response-content-type=text/csv&response-content-disposition=attachment;filename=%E5%BD%93%E5%BD%93%E7%BD%91%E7%95%85%E9%94%80%E5%9B%BE%E4%B9%A6%E6%A6%9C%E5%8D%95%E6%95%B0%E6%8D%AE.csv
+https://www.heywhale.com/mw/project/6672a8ab8129d33b69c72ac7/dataset
+https://www.heywhale.com/notebooks/run/6672aac654443711a5cb7d16?label=625fd346be3feb0017a93daa&image=6672aac6e95f29beeb8022cc&notebook=6672aac654443711a5cb7d1d
+https://www.heywhale.com/mw/project/66617b658ff60d3a5c7ba613
+https://www.heywhale.com/mw/project/6642021eddbc61be65fd072e
+
+
+请完成一份完整的数据分析报告，要求如下：
+（3）数据分析报告可以包括但不限于以下步骤：
+    - 分析目的
+    - 数据获取
+    - 数据概览
+    - 数据清洗
+    - 数据转换
+    - 数据分析（统计计算，探索性分析，单个特征分析，特征间关系分析）
+    - 机器学习（可选）
+    - 结论
+（4）熟练运用numpy、matplotlib、pandas，参考ECHARTS、plotly、seaborn等第三方库；
+（5）图表丰富合理，且在代码之外有一定的文字描述；
+（6）熟练运用Markdown形式的文档格式；
+（8）提交ipynb格式的Jupyter Notebook，以附件形式。提交的文件夹包含数据、代码。代码文件保留执行结果。
+说明：文件夹名字为“学号姓名”
+
+book=
+	书名	出版日期	作者	出版社	2020排名	2021排名	2022排名	2023排名	原价	折扣价	折扣比例	评论数	推荐值	上榜次数	出版年份
+0	你当像鸟飞往你的山（中文版销量超200万册，比尔·盖茨年度特别推	2019-11-01	塔拉	南海出版公司	1	3	18	17	59.0	44.25	7.5	1707176	100.0	4	2019
+1	人间失格（日本小说家太宰治代表作，一个对村上春树影响至深的绝	2015-08-01	太宰治	作家出版社	2	未上榜	123	380	25.0	9.80	3.9	2227359	99.8	3	2015
+2	乌合之众 : 大众心理研究（群体心理学创始人古斯塔夫·勒庞代表作	2018-04-06	古斯塔夫·勒庞	民主与建设出版社	3	7	31	132	26.0	10.10	3.9	752441	100.0	4	2018
+3	神奇校车·图画书版（全12册）	2018-05-10	乔安娜柯尔	贵州人民出版社	4	33	43	335	198.0	88.00	4.4	1784528	99.9	4	2018
+4	作家榜名著：月亮与六便士（159万+读者高分推荐版！好评率高达99	2017-01-10	毛姆	浙江文艺出版社	5	25	26	19	39.8	19.90	5.0	1591320	100.0	4	2017
+https://www.coze.com/space/7320370464168247304/bot/7320357658085801992
+https://www.coze.com/space/7320370464168247304/bot/7367619141508825104
+订阅地址：https://mojie.app/api/v1/client/subscribe?token=3e38cd89a905fad8108bc36019250978
+下载地址：https://hollywood.lanzouj.com/win64dadwdqwd

@@ -1,0 +1,7 @@
+<html>
+<body>
+<h1 id="title">hello world</h1>
+<a href="#" class="link"> this is link1</a>
+<a href="#link2" class="link"> this is link2</a>
+</body>
+</html>

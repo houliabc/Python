@@ -1,3 +1,4 @@
+#运用cookie爬取需要登录的网站
 import requests
 import datetime
 import mysql.connector

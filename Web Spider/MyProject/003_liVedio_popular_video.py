@@ -1,4 +1,7 @@
 #使用防盗链和处理AJAX的方式下载梨视频的热门视频：https://www.pearvideo.com/popular
+# -*- encoding = utf-8 -*-
+# author : houliabc
+
 import requests
 import time
 from lxml import etree

@@ -1,4 +1,7 @@
 #运用cookie爬取需要登录的网站
+# -*- encoding = utf-8 -*-
+# author : houliabc
+
 import requests
 import datetime
 import mysql.connector

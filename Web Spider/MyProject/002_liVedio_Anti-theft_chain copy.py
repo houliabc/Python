@@ -1,4 +1,6 @@
 #使用防盗链下载梨视频的项目
+# -*- encoding = utf-8 -*-
+# author : houliabc
 import requests
 
 url="https://www.pearvideo.com/video_1799330"

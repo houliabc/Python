@@ -1,3 +1,6 @@
+#使用代理爬虫
+# -*- encoding = utf-8 -*-
+# author : houliabc
 import requests
 
 proxies={

@@ -1,3 +1,6 @@
+# 运用cookie爬取深圳链家的信息
+# -*- encoding = utf-8 -*-
+# author : houliabc
 import re
 import requests
 import pymysql

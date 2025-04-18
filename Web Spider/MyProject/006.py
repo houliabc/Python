@@ -1,19 +1,20 @@
-#爬取网易云的热门评论，解决js逆向问题
-# -*- encoding = utf-8 -*-
-# author : houliabc
-
+#爬取网易云的热门评论
 import requests
 from lxml import etree
 import time
 from Crypto.Cipher import AES
 from base64 import b64encode
+from binascii import hexlify
 import json
+import random
 
 url="https://music.163.com/weapi/comment/resource/comments/get?csrf_token="
 
 headers={
     'Aser-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36'
 }
+
+
 """
     function a(a) {  #a=16
         var d, e, b = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789", c = "";
@@ -50,6 +51,7 @@ headers={
 """
 # 这段代码是加密函数的实现，主要是对数据进行加密处理
 # d(d, e, f, g)
+
 data = {
     'csrf_token': "",
     'cursor': "-1",
@@ -97,3 +99,33 @@ comments=data['data']['comments']  #获取评论数据
 for i in comments:
     print(f"评论人：{i['user']['nickname']}, 评论内容：{i['content']}, 点赞数：{i['likedCount']}")
     time.sleep(1)  #延时1秒，防止请求过快被封
+
+
+def a(self,a=16):
+    """
+    获取16位随机字符串
+    """
+    words="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+    result=''
+    for i in range(a):
+        result+=words[random.randint(0,len(words)-1)]
+    return result
+def b(self,data,key):
+    """
+    AES 加密
+    """
+    iv = b'0102030405060708'
+    pad = 16 - len(data) % 16
+    data = data + chr(2) * pad
+
+    aes = AES.new(key.encode(), AES.MODE_CBC, iv)
+    tmp = aes.encrypt(data.encode())
+    result = b64encode(tmp).decode()
+    return result
+def c(self,a,b,c):
+    """
+    RSA 加密
+    """
+    a = a[::-1]
+    result = pow(int(hexlify(a.encode()), 16), int(b, 16), int(c, 16))
+    return format(result, 'x').zfill(131)

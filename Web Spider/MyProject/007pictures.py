@@ -25,10 +25,10 @@ index=html(u,1)  #获取首页源码
 a=index.select('div.NavBox.fc h2 a')
 for i in a:
     nav=(i['href'],i.string) 
-
+    # print(nav[0])
     html=html(nav[0],0)  #获取分类页面源码
     print(html)
-    11
+    ppp
     end=re.findall(r'<a href="(.*?)">末页</a>',html)
     print(end)
 

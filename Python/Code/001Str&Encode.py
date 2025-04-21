@@ -14,3 +14,7 @@ print(x.decode('ascii'))
 print((x.decode('utf-8')+'gg\xe4b8').encode('ascii',errors='ignore'))  # 用errors='ignore'忽略bytes中无法解码的字符
 
 print(len(b'\xe4\xb8\xad\xe6\x96\x87'))
+
+l=[1,2]
+l.pop(0)  #删除索引
+print(l)  

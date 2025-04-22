@@ -39,3 +39,7 @@ if __name__ == '__main__':
         end=re.findall(r'<li class="thisclass hide">.*?</li>',html,re.S)
         print(end)
         break
+a=requests.get('https://www.umeituku.com/bizhitupian/')
+a.encoding=a.apparent_encoding
+print(a.text)
+# print(a.stri)

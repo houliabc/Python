@@ -56,3 +56,17 @@ while True:
     except StopIteration as e:  #捕获停止迭代的异常，否则不会报错，一直死循环
         print('return：',e.value)
         break
+
+
+
+#不需要传参的死循环版本
+def fibonacci():
+    a, b = 0, 1
+    while True:
+        yield a
+        a, b = b, a + b
+
+# 使用生成器
+fib = fibonacci()
+for _ in range(10):  # 只取前10个值
+    print(next(fib))    

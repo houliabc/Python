@@ -1,9 +1,10 @@
+#生成器
 # 一边循环一边计算的机制，称为生成器：
-l=(i for i in range(10))
+l=(i for i in range(10))  #只需要把列表推导式改为（）即可
 print(l)
-print(next(l))
+print(next(l))  #用了next，迭代开始的位置就不是原本的第一个位置了
 print()
-for i in l:  #一般用迭代的方式，用了next，迭代开始就往后走了
+for i in l:  #一般用迭代的方式，生成器也是个可迭代对象
     print(i)
 
 print()
@@ -41,3 +42,17 @@ next(o)
 next(o)  #从上次返回的yield处开始执行
 next(o)
 # next(o)  #报错，已经结束了
+
+#迭代的方式访问生成器函数
+for i in fib(10):
+    print(i,end=',')  #但是拿不到return的内容
+print()
+
+#想办法拿return内容
+g=fib(6)
+while True:
+    try:
+        print(next(g),end=',')
+    except StopIteration as e:  #捕获停止迭代的异常，否则不会报错，一直死循环
+        print('return：',e.value)
+        break

@@ -15,11 +15,11 @@ print(isinstance(iter([]),Iterator))
 
 
 
+#遍历的方式
 for x in [1, 2, 3, 4, 5]:
     pass
-
 #等价于
-
+#用迭代器的方式
 it = iter([1, 2, 3, 4, 5])
 # 循环:
 while True:

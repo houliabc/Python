@@ -9,7 +9,7 @@ L2 = list(map(normalize, L1))
 print(L2)
 
 #--------------------------------------------
-from functools import reduce
+from functools import reduce  #其实是内置的，不用也可以
 
 def prod(L):
     return reduce(lambda x, y: x * y, L)

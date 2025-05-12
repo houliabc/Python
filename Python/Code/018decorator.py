@@ -13,6 +13,7 @@ def log(func):
         return func(*arg, **kw)
     return wrapper
 
+
 #上面的log()函数就是一个decorator，它接收一个函数作为参数，并返回一个函数
 @log   # 装饰器的语法糖
 def now():
